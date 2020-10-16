@@ -58,6 +58,9 @@ const Container = styled.div`
   text-align:right;
   padding-right:40px;
   line-height:1;
+  @media (max-width: 768px) {
+    text-align:center;
+  }
 `;
 const CurData = styled.div`
   margin-top:40px;
