@@ -5,6 +5,7 @@ class Clock extends React.Component {
   state = {
     date : new Date()
   };
+  
   render() {
     const { date } = this.state;
     return (
@@ -38,17 +39,17 @@ class Clock extends React.Component {
     );
   }
   getDate = () => {
-    this.getState({
+    this.setState({
       date: new Date()
     });
   };
 
   componentDidMount() {
-    this.onMinuteCall = setInterval(() => this.getDate(), 60000)
+    this.oneMinuteCall = setInterval(() => this.getDate(), 60000)
   }
 
   componentWillUnmount() {
-    clearInterval(this.onMinuteCall);
+    clearInterval(this.oneMinuteCall);
   }
 
 }
