@@ -39,4 +39,5 @@
 </ol>
 
 <h2>완성</h2>
+
 ![study_01](https://user-images.githubusercontent.com/61222924/96547942-ee518f80-12e7-11eb-8cf5-9506440652e7.png)
