@@ -37,3 +37,6 @@
   <li>입력받은 할 일을 state와 localstorage에 저장</li>
   <li>어플리케이션 실행 시 localstorage에 저장된 할 일 목록을 가져오기</li>
 </ol>
+
+<h2>완성</h2>
+![study_01](https://user-images.githubusercontent.com/61222924/96547942-ee518f80-12e7-11eb-8cf5-9506440652e7.png)
